@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodies</title>
+
+    <!-- BOOTSTRAP CDN-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- OWN CSS-->
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="css/responsive_style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="../JS/main.js"></script>
+
+</head>
+
+<body>
+    <!-- header design-->
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navigation-wrap">
+            <div class="container-fluid header-design">
+                <a class="navbar-brand" href="#"><img src="../IMAGES/logo.jpg"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#About">About us</a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Explore_Foods">Explore Foods</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#deals">Deals</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonial">Reviews</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">FAQ</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link main-btn" href="#">0519256233</a>
+                        </li>
+
+
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- section 1 top banner-->
+
+    <section id="home">
+        <div class="container-fluid px-0 top-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 first-content">
+                        <h1>Good food choices are good investments.</h1>
+                        <P>
+                            Good food choices are good investments because the food we eat directly affects our health,
+                            energy, and overall quality of life. Choosing nutritious meals helps the body stay strong,
+                            improves concentration, and reduces the risk of many illnesses in the future. Just like
+                            investing money wisely brings long-term benefits, eating healthy foods today leads to a
+                            healthier and happier life tomorrow. Fresh fruits, vegetables, whole grains, and balanced
+                            meals
+                            not only support physical well-being but also improve mental health and productivity. By
+                            making
+                            smart food choices every day, we are investing in a better future for ourselves.
+                        </P>
+                        <div class="mt-4">
+                            <button class="main-btn">
+                                Order Now
+                                <i class="fas fa-shopping-basket ps-3"></i>
+                            </button>
+                            <button class="white-btn ms-lg-4 mt-lg-0 mt-4">
+                                Order Now
+                                <i class="fas fa-angle-right ps-3"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="About">
+
+        <section id="about-counter">
+            <div class="container">
+                <div class="row counter-wrapper">
+
+                    <div class="counter-box">
+                        <h2><span class="counter" data-target="100">0</span>+</h2>
+                        <p>Savings</p>
+                    </div>
+
+                    <div class="counter-box">
+                        <h2><span class="counter" data-target="50">0</span>+</h2>
+                        <p>Photos</p>
+                    </div>
+
+                    <div class="counter-box">
+                        <h2><span class="counter" data-target="150">0</span>+</h2>
+                        <p>Rockets</p>
+                    </div>
+
+                    <div class="counter-box">
+                        <h2><span class="counter" data-target="200">0</span>+</h2>
+                        <p>Globes</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+    <!-- section 4 Explore_Foods-->
+
+
+    <section id="Explore_Foods" class="explore-foods py-5">
+
+        <div class="container text-center mb-5">
+            <h2>Explore Our Foods</h2>
+            <p>
+                Choose from a variety of delicious meals made fresh daily with high-quality ingredients and rich
+                flavors.
+            </p>
+        </div>
+
+        <div class="container">
+            <div class="row g-4">
+
+                <!-- CARD 1 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="food-card">
+                        <div class="food-img">
+                            <img src="../IMAGES/burger_image.jpg" alt="Beef Burger">
+                        </div>
+                        <div class="food-body">
+                            <h4>Beef Burger</h4>
+                            <p>Juicy grilled beef burger with cheese & fresh veggies.</p>
+
+                            <div class="food-meta">
+                                <span class="price">$5.99</span>
+                                <span class="rating">⭐⭐⭐⭐☆</span>
+                            </div>
+
+                            <button class="main-btn w-100 mt-3">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="food-card">
+                        <div class="food-img">
+                            <img src="../IMAGES/pizza.jpg" alt="Cheese Pizza">
+                        </div>
+                        <div class="food-body">
+                            <h4>Cheese Pizza</h4>
+                            <p>Hot cheesy pizza loaded with fresh toppings.</p>
+
+                            <div class="food-meta">
+                                <span class="price">$8.50</span>
+                                <span class="rating">⭐⭐⭐⭐⭐</span>
+                            </div>
+
+                            <button class="main-btn w-100 mt-3">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="food-card">
+                        <div class="food-img">
+                            <img src="../IMAGES/fries.jpg" alt="Crispy Fries">
+                        </div>
+                        <div class="food-body">
+                            <h4>Crispy Fries</h4>
+                            <p>Golden crispy fries served with special sauce.</p>
+
+                            <div class="food-meta">
+                                <span class="price">$3.99</span>
+                                <span class="rating">⭐⭐⭐⭐☆</span>
+                            </div>
+
+                            <button class="main-btn w-100 mt-3">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 4 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="food-card">
+                        <div class="food-img">
+                            <img src="../IMAGES/salad.jpg" alt="Healthy Salad">
+                        </div>
+                        <div class="food-body">
+                            <h4>Healthy Salad</h4>
+                            <p>Fresh green salad packed with nutrients.</p>
+
+                            <div class="food-meta">
+                                <span class="price">$4.50</span>
+                                <span class="rating">⭐⭐⭐⭐⭐</span>
+                            </div>
+
+                            <button class="main-btn w-100 mt-3">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- section 5 deals-->
+
+    <section id="deals" class="deals-section py-5">
+
+        <div class="container text-center mb-5">
+            <h2>🔥 Special Deals & Offers</h2>
+            <p>
+                Grab exciting discounts on your favorite meals. Limited time offers you don’t want to miss!
+            </p>
+        </div>
+
+        <div class="container">
+            <div class="row g-4">
+
+                <!-- DEAL 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="deal-card">
+                        <div class="deal-badge">-30%</div>
+
+                        <div class="deal-img">
+                            <img src="../IMAGES/burger-deal.jpg" alt="">
+                        </div>
+
+                        <div class="deal-body">
+                            <h4>Burger Combo Deal</h4>
+                            <p>Burger + Fries + Drink</p>
+
+                            <div class="deal-price">
+                                <span class="old-price">$10.00</span>
+                                <span class="new-price">$7.00</span>
+                            </div>
+
+                            <button class="main-btn w-100 mt-3">Grab Deal</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DEAL 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="deal-card">
+                        <div class="deal-badge">-25%</div>
+
+                        <div class="deal-img">
+                            <img src="../IMAGES/pizza-deal.jpg" alt="">
+                        </div>
+
+                        <div class="deal-body">
+                            <h4>Family Pizza Offer</h4>
+                            <p>2 Large Pizzas + Drink</p>
+
+                            <div class="deal-price">
+                                <span class="old-price">$18.00</span>
+                                <span class="new-price">$13.50</span>
+                            </div>
+
+                            <button class="main-btn w-100 mt-3">Grab Deal</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DEAL 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="deal-card">
+                        <div class="deal-badge">-40%</div>
+
+                        <div class="deal-img">
+                            <img src="../IMAGES/fastfood-deal.jpg" alt="">
+                        </div>
+
+                        <div class="deal-body">
+                            <h4>Fast Food Combo</h4>
+                            <p>Nuggets + Fries + Burger</p>
+
+                            <div class="deal-price">
+                                <span class="old-price">$12.00</span>
+                                <span class="new-price">$7.20</span>
+                            </div>
+
+                            <button class="main-btn w-100 mt-3">Grab Deal</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- section 6 testimonials-->
+
+
+    <section id="testimonial" class="testimonial-section py-5">
+
+        <div class="container text-center mb-5">
+            <h2>What Our Customers Say</h2>
+            <p>
+                Real reviews from happy customers who love our food and service.
+            </p>
+        </div>
+
+        <div class="container">
+            <div class="row g-4">
+
+                <!-- REVIEW 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+
+                        <div class="user-info">
+                            <img src="../IMAGES/user1.jpg" alt="">
+                            <div>
+                                <h5>Ali Hassan</h5>
+                                <span>Food Lover</span>
+                            </div>
+                        </div>
+
+                        <p>
+                            The food was absolutely delicious! Fast delivery and amazing quality. Highly recommended!
+                        </p>
+
+                        <div class="stars">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+                    </div>
+                </div>
+
+                <!-- REVIEW 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+
+                        <div class="user-info">
+                            <img src="../IMAGES/user2.jpg" alt="">
+                            <div>
+                                <h5>Sara Khan</h5>
+                                <span>Customer</span>
+                            </div>
+                        </div>
+
+                        <p>
+                            I loved the burger combo deal. Fresh, tasty, and very affordable. Will order again!
+                        </p>
+
+                        <div class="stars">
+                            ⭐⭐⭐⭐☆
+                        </div>
+                    </div>
+                </div>
+
+                <!-- REVIEW 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="testimonial-card">
+
+                        <div class="user-info">
+                            <img src="../IMAGES/user3.jpg" alt="">
+                            <div>
+                                <h5>Usman Ali</h5>
+                                <span>Regular Customer</span>
+                            </div>
+                        </div>
+
+                        <p>
+                            Excellent service and great taste. The pizza was hot and fresh on delivery.
+                        </p>
+
+                        <div class="stars">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    /* ===== FAQ Section ===== */
+
+
+    <section id="faq" class="faq-section py-5">
+
+        <div class="container text-center mb-5">
+            <h2>Frequently Asked Questions</h2>
+            <p>
+                Find answers to the most common questions about our food, delivery, and services.
+            </p>
+        </div>
+
+        <div class="container">
+            <div class="accordion" id="faqAccordion">
+
+                <!-- FAQ 1 -->
+                <div class="accordion-item faq-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            Do you offer home delivery?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes! We offer fast and reliable home delivery within your city. Your food arrives hot and
+                            fresh.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="accordion-item faq-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq2">
+                            What is your delivery time?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Our average delivery time is 25–40 minutes depending on your location and order size.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="accordion-item faq-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq3">
+                            Do you have healthy food options?
+                        </button>
+                    </h2>
+                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, we offer fresh salads, grilled meals, and low-calorie healthy food options.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="accordion-item faq-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq4">
+                            What payment methods do you accept?
+                        </button>
+                    </h2>
+                    <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            We accept cash on delivery, credit/debit cards, and online payment methods.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="accordion-item faq-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq5">
+                            Can I customize my order?
+                        </button>
+                    </h2>
+                    <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, you can customize ingredients, spice level, and toppings as per your preference.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+</body>
+
+</html>
